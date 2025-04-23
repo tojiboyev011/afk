@@ -1,0 +1,26 @@
+{ 
+    "version": "1.17.1",
+    "workingPosition": [ 6241, 60, -589],
+    "craftingTablePosition": [ 6241, 60, -589], 
+    "outputPosition": [ 6240, 60, -588], 
+    "login": {
+        "gapTicks": 60,
+        "sequence": [
+            "/login fort54321",
+            "/is warp craft"
+        ]
+    },
+    "crafting": {
+        "product": "netherite_block",
+        "useCraftingTable": true,
+        "materials": {
+            "netherite_ingot": [ 6240, 60, -589]
+        }
+    },
+    "chatControl": {
+        "allowOwnersOnly": true,
+        "owners": ["Umid"],
+        "whisperRegexPatterns": []
+    },
+    "logChats": false
+}
